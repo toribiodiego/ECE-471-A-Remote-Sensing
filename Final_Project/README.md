@@ -1,3 +1,5 @@
+> This directory contains the final project for ECE‑471: Remote Sensing, focusing on forecasting drought conditions up to 12 weeks ahead in California’s Central Valley using remote sensing data and machine learning techniques inspired by the DroughtCast framework.
+
 ## Drought Forecasting in California’s Central Valley
 
 
