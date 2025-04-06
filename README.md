@@ -20,7 +20,8 @@ This course provides a practical introduction to remote sensing and Earth observ
 
 
 
-- **Final Project** – *tbd*
+- **Final Project** – *Drought Forecasting in California’s Central Valley*
 
-## Final Project
+### Final Project
 
+The project, *Drought Forecasting in California’s Central Valley*, uses remote sensing and machine learning to predict drought conditions up to 12 weeks ahead. The approach begins by replicating the [*DroughtCast*](https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2021.773478/full) framework to build a baseline dataset, which is then enhanced with additional features. Google Earth Engine processes and aligns various data sources—such as satellite imagery, soil moisture, weather observations, and water storage measurements. A sequence-to-sequence model based on gated recurrent units (GRUs) is trained on the curated dataset and validated through both spatial and temporal tests. The goal is to deliver early drought warnings that support better decision-making in agriculture, water management, and environmental planning.
