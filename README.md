@@ -12,15 +12,29 @@ This course provides a practical introduction to remote sensing and Earth observ
 
 ### Repository Structure
 
-- **P01.ipynb** – *Satellite Imagery Analysis*  
-  This project simulates a real-world consulting scenario for New Mexico by analyzing Sentinel-2 imagery over the greater Santa Fe area. The assignment includes exploring the dataset, creating visualizations, processing images for consistent spatial properties, and generating composite images. It also features tasks such as developing cloud masks and analyzing pixel value distributions—all aimed at building a comprehensive understanding of geospatial data processing.
+```
+.
+├── Final_Project
+│   └── README.md
+├── P01
+│   └── P01.ipynb
+├── P02
+│   ├── P02.ipynb
+│   └── artifacts
+│       └── Iowa_Illinois_top20_crops.csv
+└── README.md
 
-- **P02.ipynb** – *Crop Prediction and Seasonal Analysis*  
-  This assignment focuses on using the Cropland Data Layer and Landsat imagery to predict crop types in Iowa and Illinois. It begins with ranking crop prevalence using acreage data, followed by an exploration of seasonal vegetation patterns through NDVI time series analysis. The project culminates in the development, testing, and deployment of a crop classification model designed to produce accurate in-season predictions by integrating geospatial analysis with machine learning techniques.
+```
 
+- **`Final_Project.ipynb`** – *Drought Forecasting:*  
+  Builds on the *DroughtCast* approach, augmenting baseline satellite and ground data with additional features. The final sequence-to-sequence model aims to provide early drought warnings in California’s Central Valley.
 
+- **`P01.ipynb`** – Satellite Imagery Analysis:**  
+  Examines Sentinel-2 imagery around Santa Fe, covering data loading, visualization, spatial normalization, and techniques like cloud masking and pixel distribution analysis.
 
-- **Final Project** – *Drought Forecasting in California’s Central Valley*
+- **`P02.ipynb`** – *Crop Prediction and Seasonal Analysis*  
+  Investigates crop types in Iowa and Illinois with a Cropland Data Layer and NDVI time series, culminating in a classification model that leverages geospatial data for accurate in-season crop predictions.
+
 
 ### Final Project
 
